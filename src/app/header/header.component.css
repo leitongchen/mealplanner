@@ -1,0 +1,28 @@
+.navbar-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.navigation-button {
+  height: 40px;
+  padding: 8px 16px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  color: #337ab7;
+  cursor: pointer
+}
+
+.navigation-button.active,
+.navigation-button.active:hover {
+  background-color: #337ab7;
+  border-color: #337ab7;
+  color: #fff;
+}
+
+.navigation-button.active:hover {
+  cursor: default;
+}
+
+.navigation-button:hover {
+  background-color: #cddae6;
+}
